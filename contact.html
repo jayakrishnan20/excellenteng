@@ -1,0 +1,201 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Excellent Engineering Enterprises</title>
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slider.css">
+<link rel="stylesheet" type="text/css" href="assets/css/cmn-contact_style.css">
+
+<script type="text/javascript" src="assets/js/ga.js"></script>
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/slider.js"></script>
+
+<link href="assets/css/css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+  $(window).load(function () {
+    $('#slider').nivoSlider({});
+  });
+</script>
+
+<script type="text/javascript" src="assets/js/menu.js"></script>
+
+<script type="text/javascript" src="assets/js/jquery_003.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/skin.css">
+<script type="text/javascript">
+  function mycarousel_initCallback(carousel) {
+    carousel.buttonNext.bind('click', function () {
+      carousel.startAuto(0);
+    });
+    carousel.buttonPrev.bind('click', function () {
+      carousel.startAuto(0);
+    });
+    carousel.clip.hover(function () {
+      carousel.stopAuto();
+    }, function () {
+      carousel.startAuto();
+    });
+  };
+  jQuery(document).ready(function () {
+    jQuery('#mycarousel').jcarousel({
+      auto: 2,
+      wrap: 'last',
+      initCallback: mycarousel_initCallback
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    //slides the element with class "menu_body" when paragraph with class "menu_head" is clicked 
+    $("#firstpane p.menu_head").click(function () {
+      $(this).css({
+        backgroundImage: ""
+      }).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+      $(this).siblings().css({
+        backgroundImage: ""
+      });
+    });
+  });
+</script>
+
+<!--<script src="js/main.js" charset="UTF-8" type="text/javascript"></script>-->
+
+</head>
+
+<body>
+
+  <div class="main-body">
+    <div class="main-body-wrapper">
+      <div class="main-wrapper">
+        <div class="header-cont">
+          <div class="header-logo">
+            <div class="logo">
+              <a href="#" style="font-size:30px"><img src="assets/images/logo.jpg"
+                  alt="Excellent Engineering Enterprises"></a>
+            </div>
+            <!--logo end-->
+
+            <div class="clear"></div>
+          </div>
+          <!--header-logo end-->
+          <div class="clear"></div>
+          <div class="menu-holder">
+            <div id="menu" class="ddsmoothmenu">
+              <ul>
+                <li><a href="index.html" title="Excellent Engineering Enterprises Home">Home</a></li>
+                <li><a href="about.html" title="Excellent Engineering Enterprises Profile">About Us</a>
+                </li>
+                <li><a href="product_head.html" title="Excellent Engineering Enterprises Products">Products</a></li>
+                <li><a class="active" href="contact.html" title="Excellent Engineering Enterprises Contact">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <!--menu-holder end-->
+        </div>
+        <!--header-con-->
+      </div>
+      <!--main-wrapper end-->
+      <div class="banner-wrapper">
+        <div class="banner-cont">
+          <img src="assets/images/banner2.jpg" alt="Excellent Engineering Enterprises" width="980" height="250">
+          <!--<img src="images/banner2.jpg"alt="" />-->
+        </div>
+        <!--banner-cont end-->
+      </div>
+      <!--banner-cont end-->
+      <div class="clear">
+
+
+        <div class="cmn-contact-wrapper">
+          <div class="cmn-form-wrapper">
+            <div class="cmn-address-section left">
+              <h2 style="border:none;">Contact Address</h2>
+              <p class="cmn-email1"><br>Yusuf Mustan<br>
+                <b style="color:#545454; font-size:12px;">Excellent Engineering Enterprises</b>
+                <br>Door No:55, Rangakonar Street,<br>Kattor,<br>Coimbatore- 641009,
+                <br>Tamil Nadu, India</p>
+              <p class="cmn-email1"><strong>Email: </strong>
+                <br><a class="email-wrap"
+                  href="http://web.archive.org/web/20131012033147/mailto:yusuf@excellenteng.co.in">yusuf@excellenteng.co.in</a>
+              </p>
+              <p class="cmn-email1"><strong>Telephone:</strong><br>0422-2236650<br>0422-2387565</p>
+              <p class="cmn-email1"><strong>Fax: </strong> <br>0422-2231516</p>
+              <p class="cmn-email1"><strong>Cell: </strong> <br>91-9994056651</p>
+            </div>
+            <!--cmn-address-cont-->
+
+            <!--<form action="#" id="frm_contactus" name="frm_contactus" method="post">-->
+            <div class="cmn-form-section right">
+              <h1 style="border:none;">Contact Form</h1>
+              <h2 style="border:none;">Please enter the following information and send, *all fields are mandatory.</h2>
+              <div class="cmn-contact-info">
+                <div class="cmn-cont-info-lft">
+                  <input type="text" name="name" id="name" placeholder="Name">
+                  <input type="text" name="email" id="email" placeholder="Email">
+                  <input type="text" name="mobilenumber" id="mobilenumber" placeholder="Mobile Number">
+                  <input type="text" name="location" id="location" placeholder="Location">
+
+                  <textarea name="Description" id="Description" cols="" rows="" placeholder="Enquiry"
+                    class="cmn-desc"></textarea>
+                </div>
+                <!--cont-info-lft-ends-->
+
+                <div class="clear"></div>
+              </div><!-- contact-info ends -->
+
+              <div style="display:block;">
+                <input name="btnSubmit" type="button" class="cmn-submit-btn" value="Send" onclick="contact_us();">
+                <a href="#"><input name="btnSubmit" type="button" class="cmn-submit-btn" value="Cancel"></a>
+              </div>
+              <p>&nbsp;</p>
+
+            </div>
+            <!--cmn-form-section-->
+            <div class="clear"></div>
+
+          </div>
+          <!--cmn-form-wrapper-->
+        </div>
+      </div>
+      <!--main-wrapper end-->
+      <div class="main-wrapper">
+        <div class="footer-cont">
+          <div class="footer-menu">
+            <div class="align">
+              <ul class="foot-nav ">
+                <li><a href="index.html" title="Excellent Engineering Enterprises Home">Home</a></li>
+                <li><a href="about.html" title="Excellent Engineering Enterprises Profile">About Us</a></li>
+                <li><a href="product_head.html" title="Excellent Engineering Enterprises Products">Products</a></li>
+                <li><a href="contact.html" title="Excellent Engineering Enterprises Contact">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--footer-menu end-->
+          <div class="copy-smm" style="margin-top:20px; margin-bottom:20px;">
+            <div class="copy left">
+              <p style="color:#545454;">
+                <script>
+                  document.write(new Date().getFullYear())
+                </script>
+                © Excellent Engineering Enterprises. all rights reserved.
+              </p>
+            </div>
+            <div class="power right">
+            </div>
+            <!--right end-->
+            <div class="clear"></div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <!--main-wrapper end-->
+    </div>
+    <!--main-body-wrapper end-->
+  </div>
+  <!--main-body-->
+</body>
+
+</html>

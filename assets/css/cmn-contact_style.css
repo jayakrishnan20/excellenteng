@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+color:    #666;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color:    #666;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color:    #666;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color:    #666;
+}
+.clear {
+	clear: both;
+}
+.left {
+	float: left
+}
+.right {
+	float: right;
+}
+.wrapper-my {
+	width: 800px;
+	margin: 0 auto;
+}
+.cmn-contact-wrapper {
+	width: 97.8%;
+	padding: 1%;
+	margin: 10px auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	border: 1px solid #ccc;
+}
+.contact-banner {
+	margin-bottom: 15px;
+	border: 1px solid #CACACA
+}
+.cmn-form-section {
+	width: 70%;
+	padding: 10px;
+	margin: 0px 0 0 0;
+	background-color: #ffffff;
+}
+.cmn-form-section h1 {
+	font-size: 15px;
+	color: #FFF;
+	font-weight: normal;
+	display: block;
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 10px 0;
+	background: #6d0b3c;
+}
+.cmn-form-section h2 {
+	font-size: 14px;
+	color: #333;
+	font-weight: normal;
+	display: block;
+	padding: 5px;
+	margin: 0;
+}
+.cmn-form-section p {
+	font-size: 11px;
+	color: #666;
+	font-weight: normal;
+	display: block;
+	padding: 5px;
+	margin: 0;
+}
+.cmn-form-section h2 span, .cmn-form-section p span {
+	color: #C00;
+}
+.red-feild {
+	float: right;
+	padding: 2px 0 0 0 !important;
+}
+.txt-right {
+	text-align: right;
+}
+.cmn-contact-info {
+	display: block;
+	padding: 20px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+.cmn-cont-info-lft {
+	width: 282px;
+	padding-right: 10px;
+	margin: 0;
+	float: left;
+}
+.cmn-cont-info-rgt {
+	width: 400px;
+	padding-left: 10px;
+	margin: 0;
+	float: right;
+	text-align: right;
+}
+.cmn-form-section input[type=text] {
+	color: #666;
+	width: 375px; height: 25px;
+	font-size: 15px; background:#f3f3f3;
+	padding: 5px;
+	margin: 0 0 15px 0;
+	border: 1px solid #ccc;
+	
+}
+.cmn-form-section input[type=text]:focus {
+	border: 1px solid #F36; background:#f3f3f3;
+}
+
+.cmn-desc {
+	width: 375px;
+	height: 120px;
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 15px; background:#f3f3f3;
+	color: #333;
+	display: block;
+	padding: 1.5%;
+	margin: 15px auto;
+	resize: vertical;
+	border: 1px solid #CCC;
+	}
+.cmn-desc:focus {
+	border: 1px solid #F36;
+}
+.cmn-submit-btn {
+	width: 100px;
+	height: 32px;
+	padding: 5px 10px;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 12px;
+	overflow: visible;
+	border-top: 1px #1B1B1B solid;
+	border-right: 1px #4B4B4B solid;
+	border-bottom: 1px #202020 solid;
+	border-left: 1px #4B4B4B solid;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#464646", endColorstr="#252525");
+	background: -webkit-gradient(linear, left top, left bottom, from(#464646), to(#252525));
+	background: -moz-linear-gradient(top, #464646, #252525);
+	text-shadow: #000 0 1px 2px;
+	-webkit-text-shadow: #000 0 1px 2px;
+	-moz-text-shadow: #000 0 1px 2px;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), inset 0px 1px 0px #757575;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), inset 0px 1px 0px #757575;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3), inset 0px 1px 0px #757575;
+}
+.cmn-submit-btn:active {
+	color: #fff;
+	border-top: 1px #000 solid;
+	border-right: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+	border-left: 1px #000 solid;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#252525", endColorstr="#292929");
+	background: -webkit-gradient(linear, left top, left bottom, from(#252525), to(#292929));
+	background: -moz-linear-gradient(top, #252525, #292929);
+	-moz-box-shadow: 0 0 0 #000, inset 0 2px 2px #434343;
+	-webkit-box-shadow: 0 0 0 #000, inset 0 2px 2px #434343;
+	box-shadow: 0 0 0 #000, inset 0 2px 2px #434343;
+}
+.cmn-submit-btn:hover {
+	color: #fff;
+	border-top: 1px #292929 solid;
+	border-right: 1px #292929 solid;
+	border-bottom: 1px #292929 solid;
+	border-left: 1px #292929 solid;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), inset 0 0 3px #434343;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), inset 0 0 3px #434343;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3), inset 0 0 3px #434343;
+}
+.cmn-address-section {
+	width: 24.5%;
+	margin: 0;
+	padding: 1%;
+	background-color: #ffffff;
+}
+.cmn-address-section h2 {
+	font-size: 15px;
+	color: #FFF;
+	font-weight: normal;
+	display: block;
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 5px 0;
+	background: #6d0b3c;
+}
+.cmn-address-section h1 {
+	font-size: 18px;
+	color: #545454;
+	font-weight: normal;
+	display: block;
+	padding: 5px 10px;
+	margin: 0 0 10px 0;
+	background-color: #666;
+}
+.cmn-address-section p {
+	font-size: 14px;
+	color: #545454;
+	font-weight: normal;
+	display: block;
+	padding: 5px 0;
+	margin: 0;
+	line-height: 18px;
+}
+.cmn-address {
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #cacaca;
+}
+.cmn-email1 {
+	margin: 0px 0 0px 0 !important;
+	border-bottom: 1px dotted #cacaca;
+}
+.cmn-email1:last-child {
+	border-bottom: 0px;
+}
+.cmn-email1 strong {
+	font-weight: bold !important;
+}
+.email-wrap {
+	word-wrap: break-word;
+	line-height: 16px;
+}
+.cmn-address-section a {
+	color: #545454;
+	font-family: "Arial", Helvetica, sans-serif;
+	text-decoration: underline;
+}
+.cmn-address-section a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+/*
+     FILE ARCHIVED ON 06:27:36 Jun 06, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:53:41 May 14, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 847.833
+  exclusion.robots: 0.065
+  exclusion.robots.policy: 0.057
+  RedisCDXSource: 0.935
+  esindex: 0.009
+  LoadShardBlock: 828.465 (3)
+  PetaboxLoader3.datanode: 761.726 (4)
+  load_resource: 107.111
+  PetaboxLoader3.resolve: 38.893
+*/
