@@ -94,7 +94,7 @@
 
 .nivoSlider {
 	position:relative;
-	background:#fff url(../../../../20150128021554im_/http_/excellenteng.co.in/images/loading.html) no-repeat 50% 50%;
+	background:#fff url(../../assets/images/loading.html) no-repeat 50% 50%;
 }
 .nivoSlider img {
 	position:absolute;
@@ -118,7 +118,7 @@
 	display:block;
 	width:22px;
 	height:22px;
-	background:url(../../../../20150128011538im_/http_/excellenteng.co.in/images/bullets.png) no-repeat;
+	background:url(../../assets/images/bullets.png) no-repeat;
 	text-indent:-9999px;
 	border:0;
 	margin-right:3px;
@@ -132,7 +132,7 @@
 	display:block;
 	width:30px;
 	height:30px;
-	background:url(../../../../20150128031621im_/http_/excellenteng.co.in/images/arrows.html) no-repeat;
+	background:url(../../assets/images/arrows.html) no-repeat;
 	text-indent:-9999px;
 	border:0;
 }
